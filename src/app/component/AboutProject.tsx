@@ -12,7 +12,7 @@ const AboutProject = () => {
     <>
       {!selectedProject ? (
         <div className="text-4xl font-extrabold my-auto">
-          Magin happens, <br /> when you{"\u00A0"}
+          Magic happens, <br /> when you{"\u00A0"}
           <span className="bg-gradient-to-tr from-blue-700 to-indigo-300 inline-block bg-clip-text text-transparent">
             hover
           </span>
@@ -26,7 +26,7 @@ const AboutProject = () => {
           <Title text={selectedProject} />
           <Screen />
           <div>
-            
+
           </div>
         </div>
       )}
