@@ -3,6 +3,7 @@
 import React from "react";
 import Screen from "./Screen";
 import Title from "./Title";
+import { motion } from "framer-motion";
 import { useProject } from "../context/ProjectContext";
 
 const AboutProject = () => {
@@ -19,15 +20,24 @@ const AboutProject = () => {
           {"\u00A0"}
           on things
           {"\u00A0"}
-          <div className="inline-block rotate-12">!</div>
+          <motion.div
+            initial={{ x: -2, y: 2, rotate: -12 }}
+            animate={{ x: 2, y: -2, rotate: 12 }}
+            transition={{
+              duration: 1,
+              repeat: Infinity,
+              repeatType: "mirror",
+            }}
+            className="inline-block"
+          >
+            !
+          </motion.div>
         </div>
       ) : (
         <div className=" flex flex-col gap-[4em] -mt-8">
           <Title text={selectedProject} />
           <Screen />
-          <div>
-
-          </div>
+          <div></div>
         </div>
       )}
     </>
