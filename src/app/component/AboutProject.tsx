@@ -20,7 +20,7 @@ const AboutProject = () => {
           {"\u00A0"}
           on things
           {"\u00A0"}
-          <motion.div
+          <motion.span
             initial={{ x: -2, y: 2, rotate: -12 }}
             animate={{ x: 2, y: -2, rotate: 12 }}
             transition={{
@@ -31,11 +31,11 @@ const AboutProject = () => {
             className="inline-block"
           >
             !
-          </motion.div>
+          </motion.span>
         </div>
       ) : (
         <div className=" flex flex-col gap-[4em] -mt-8">
-          <Title text={selectedProject} />
+          <Title>{selectedProject}</Title>
           <Screen />
           <div></div>
         </div>

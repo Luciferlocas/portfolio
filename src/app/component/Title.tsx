@@ -1,14 +1,15 @@
 "use client";
 
-import React from "react";
+import React, { ReactNode } from "react";
 import { motion } from "framer-motion";
 
 interface Prop {
-  text: string;
+  children: ReactNode;
 }
 
-const Title = (props: Prop) => {
-  const letters = Array.from(props.text);
+const Title = ({ children }: Prop) => {
+  const text = React.Children.toArray(children).join("");
+  const letters = Array.from(text);
 
   const container = {
     hidden: { opacity: 0 },
