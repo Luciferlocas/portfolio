@@ -53,7 +53,11 @@ const AboutProject = () => {
           </motion.span>
         </div>
       ) : (
-        <div
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5 }}
           className={`fixed flex flex-col gap-[4em] -translate-x-[60%] top-1/2 ${
             up ? "-translate-y-1/2" : "-translate-y-1/3"
           }`}
@@ -63,8 +67,7 @@ const AboutProject = () => {
         >
           <Title>{selectedProject}</Title>
           <Screen />
-          <div></div>
-        </div>
+        </motion.div>
       )}
     </>
   );

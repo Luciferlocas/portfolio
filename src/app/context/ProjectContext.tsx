@@ -25,9 +25,19 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
   const [selectedProject, setSelectedProject] = useState<string>("");
   const projects: Project[] = [
     {
+      name: "Edumarshal",
+      info: "Edumarshal provides educational management solutions. Click the link to learn about its features.",
+      link: "https://edumarshal.luciferlocas.live/",
+    },
+    {
       name: "Vigilance+",
       info: "Vigilance+ is a project aimed at enhancing security measures. Visit the website for more information.",
       link: "https://vigilance.luciferlocas.live/",
+    },
+    {
+      name: "Tiny URL",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
     },
     {
       name: "Bard Clone",
@@ -35,24 +45,19 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
       link: "https://bard.luciferlocas.live/",
     },
     {
-      name: "Edumarshal",
-      info: "Edumarshal provides educational management solutions. Click the link to learn about its features.",
-      link: "https://edumarshal.luciferlocas.live/",
-    },
-    {
       name: "VidyutKavach",
       info: "VidyutKavach focuses on electricity protection systems. Visit the website to see how it works.",
       link: "https://vidyutkavach.luciferlocas.live/",
     },
     {
-      name: "Writer's Oasis",
-      info: "Writer's Oasis offers a serene writing environment. Explore more about its features and benefits.",
-      link: "https://writersoasis.luciferlocas.live/",
-    },
-    {
       name: "Github Search",
       info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
       link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Writer's Oasis",
+      info: "Writer's Oasis offers a serene writing environment. Explore more about its features and benefits.",
+      link: "https://writersoasis.luciferlocas.live/",
     },
   ];
 

@@ -3,7 +3,14 @@
 @tailwind utilities;
 
 body {
-  background: linear-gradient(45deg, #c3eee4, #d6e3f8, #f5edf1, #b1d8e6);
+  background: linear-gradient(
+    45deg,
+    #c3eee4,
+    #d6e3f8,
+    #b1d8e6,
+    #f5edf1,
+    #b1d8e6
+  );
 }
 
 ::-webkit-scrollbar {
