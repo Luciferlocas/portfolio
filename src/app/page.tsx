@@ -10,9 +10,7 @@ const page = () => {
       <div className="min-h-screen flex flex-col gap-[3rem] sm:w-9/12 w-10/12 mx-auto pt-[4em] pb-[8em]">
         <Nav />
         <Me />
-        <div className="sm:flex idden justify-between w-full">
-          <ProjectList />
-        </div>
+        <ProjectList />
         <AboutProject />
       </div>
     </>

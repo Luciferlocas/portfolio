@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-gradient-to-tr from-50% from-[#d6e3f8] to-pink-100`}
+        className={`${inter.className} overflow-x-hidden overflow-y-scroll animate-gradient bg-[length:400%_400%]`}
       >
         <Providers>
           <ProjectProvider>{children}</ProjectProvider>
