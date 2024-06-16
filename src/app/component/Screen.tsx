@@ -37,7 +37,7 @@ const Screen = () => {
           <div className="absolute bg-red-500 rounded-full w-2 h-2 left-3 top-1 z-10"></div>
         </div>
         <video className="object-contain" autoPlay loop muted>
-          <source src="/{selectedProject}b.mp4" type="video/mp4" />
+          <source src="/githubbig.mp4" type="video/mp4" />
         </video>
       </motion.div>
     </div>
