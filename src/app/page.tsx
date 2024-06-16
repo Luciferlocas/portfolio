@@ -12,8 +12,8 @@ const page = () => {
         <Me />
         <div className="sm:flex idden justify-between w-full">
           <ProjectList />
-          <AboutProject />
         </div>
+        <AboutProject />
       </div>
     </>
   );

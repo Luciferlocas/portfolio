@@ -54,6 +54,106 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
       info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
       link: "https://githubsearch.luciferlocas.live/",
     },
+    {
+      name: "Gb Seach",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Gihub Seach",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Githu Searc",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Github Sch",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Githueach",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Gihub Search",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Github earch",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "GithubSearch",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Github Se",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Github Searh",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Github Seach",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Github Sarch",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Gitb Search",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Giub Search",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Githu Search",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Github Searc",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "ithub Search",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Gihub Search",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "Git Search",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
+    {
+      name: "GithSearch",
+      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://githubsearch.luciferlocas.live/",
+    },
   ];
 
   return (
