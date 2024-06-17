@@ -40,13 +40,21 @@ const ProjectList = () => {
             onMouseLeave={() => setSelectedProject("")}
             key={i}
             classNames={{
-              content: "py-[3em]",
+              content: "py-[3rem]",
               indicator: "text-black",
             }}
             aria-label={item.name}
             title={item.name}
           >
-            <Screen />
+            <div className="flex flex-col gap-12">
+              <p>
+                {item.info}{"\u00A0"}
+                <a target="_blank" href={item.link} className="text-sm bg-gradient-to-tr from-blue-700 to-indigo-300 inline-block bg-clip-text text-transparent">
+                  Explore...
+                </a>
+              </p>
+              <Screen />
+            </div>
           </AccordionItem>
         ))}
       </Accordion>
