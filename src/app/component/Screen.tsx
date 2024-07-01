@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useProject } from "../context/ProjectContext";
 
 const Screen = () => {
-  const { selectedProject } = useProject();
+  const { selectedProject, projects } = useProject();
 
   return (
     <div className="flex lg:flex-row flex-col-reverse lg:gap-4 justify-center items-center ">
@@ -21,7 +21,10 @@ const Screen = () => {
           loop
           muted
         >
-          <source src={`${selectedProject}.mp4`} type="video/mp4" />
+          <source
+            src={projects.filter((x) => x.name == selectedProject)[0].vs}
+            type="video/mp4"
+          />
         </video>
         <div className="absolute bottom-1 left-1/2 w-1/3 h-[2px] bg-black/80 rounded-full -translate-x-1/2"></div>
       </motion.div>
@@ -36,8 +39,18 @@ const Screen = () => {
           <div className="absolute bg-yellow-500 rounded-full md:w-2 md:h-2 w-1 h-1 md:left-6 left-5 md:top-1 top-[3px] z-10"></div>
           <div className="absolute bg-red-500 rounded-full md:w-2 md:h-2 w-1 h-1 left-3 md:top-1 top-[3px] z-10"></div>
         </div>
-        <video className="object-contain" autoPlay loop muted poster={`${selectedProject}p.png`}>
-          <source src={`${selectedProject}big.mp4`} type="video/mp4" />
+        <video
+          className="object-contain"
+          autoPlay
+          preload="auto"
+          loop
+          muted
+          poster={``}
+        >
+          <source
+            src={projects.filter((x) => x.name == selectedProject)[0].vb}
+            type="video/mp4"
+          />
         </video>
       </motion.div>
     </div>
