@@ -27,9 +27,9 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
   const [selectedProject, setSelectedProject] = useState<string>("");
   const projects: Project[] = [
     {
-      name: "Tiny URL",
+      name: "Tiny Miny URL",
       info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
-      link: "https://githubsearch.luciferlocas.live/",
+      link: "https://tiny-miny-url.luciferlocas.live/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1719858974/edustar_nhnaja.mp4",
       vb : "https://res.cloudinary.com/dotbo6chr/video/upload/v1719858974/edustar_nhnaja.mp4"
     },
@@ -62,16 +62,16 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
       vb : "https://res.cloudinary.com/dotbo6chr/video/upload/v1719860009/VidyutKavachbig_efyg7f.mp4"
     },
     {
-      name: "Github Search",
-      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
-      link: "https://githubsearch.luciferlocas.live/",
+      name: "Glitchub",
+      info: "Glitchub is a Github Search which enables users to find repositories and developers. Click the link to start searching.",
+      link: "https://glitchub.luciferlocas.live/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1719858974/edustar_nhnaja.mp4",
       vb : "https://res.cloudinary.com/dotbo6chr/video/upload/v1719860007/Github_Searchbig_bryxjn.mp4"
     },
     {
       name: "Writer's Oasis",
       info: "Writer's Oasis offers a serene writing environment. Explore more about its features and benefits.",
-      link: "https://writersoasis.luciferlocas.live/",
+      link: "#",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1719858974/edustar_nhnaja.mp4",
       vb : "https://res.cloudinary.com/dotbo6chr/video/upload/v1719857759/Writer_sOasisbig_rcokif.mp4"
     },

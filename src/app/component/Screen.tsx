@@ -6,6 +6,8 @@ import { useProject } from "../context/ProjectContext";
 
 const Screen = () => {
   const { selectedProject, projects } = useProject();
+  console.log(selectedProject);
+  
 
   return (
     <div className="flex lg:flex-row flex-col-reverse lg:gap-4 justify-center items-center ">
@@ -22,7 +24,7 @@ const Screen = () => {
           muted
         >
           <source
-            src={projects.filter((x) => x.name == selectedProject)[0].vs}
+            src={selectedProject && projects.filter((x) => x.name === selectedProject)[0].vs}
             type="video/mp4"
           />
         </video>
@@ -48,7 +50,7 @@ const Screen = () => {
           poster={``}
         >
           <source
-            src={projects.filter((x) => x.name == selectedProject)[0].vb}
+            src={selectedProject && projects.filter((x) => x.name === selectedProject)[0].vb}
             type="video/mp4"
           />
         </video>
