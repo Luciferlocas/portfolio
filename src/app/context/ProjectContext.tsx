@@ -50,7 +50,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     },
     {
       name: "Vigilance+",
-      info: "Vigilance+ is a project aimed at streamline the visitor management system. Currently implemented in my college campus to take all the entries of visitor and generate report as per need. Visit the website for more information.",
+      info: "Vigilance+ is a project aimed to streamline the visitor management system. Currently implemented in my college campus to take all the entries of visitor and generate report as per need. Visit the website for more information.",
       link: "https://vigilance.luciferlocas.live/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720075084/vigilance_egojkh.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/vigilancebig_ugqxzz.mp4?updatedAt=1720031371955",
@@ -86,7 +86,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     },
     {
       name: "Writer's Oasis",
-      info: "As my first project Writer's Oasis is a platform which enables every writer to post their creativity on the platform. The project is not longer running.",
+      info: "As my first project Writer's Oasis is a platform which enables every writer to post their creativity on the platform. The project is no longer running.",
       link: "#",
       vs: "",
       vb: "https://res.cloudinary.com/dotbo6chr/video/upload/v1719857759/Writer_sOasisbig_rcokif.mp4",
