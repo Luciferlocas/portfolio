@@ -50,7 +50,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     },
     {
       name: "Vigilance+",
-      info: "Vigilance+ is a project aimed to streamline the visitor management system. Currently implemented in my college campus to take all the entries of visitor and generate report as per need. Visit the website for more information.",
+      info: "Vigilance+ is a project aimed to streamline the visitor management system. Currently implemented in my college campus to take all the entries of visitor and generate report as per need. Did this project with a team of developers. Visit the website for more information.",
       link: "https://vigilance.luciferlocas.live/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720075084/vigilance_egojkh.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/vigilancebig_ugqxzz.mp4?updatedAt=1720031371955",
@@ -68,7 +68,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     },
     {
       name: "VidyutKavach",
-      info: "VidyutKavach is a Cyber-Secure Web-Based Energy Management System that utilizes a multi-layered strategy to safeguard security and integrity. A SIH problem statement solution, visit the website to see how it works.",
+      info: "VidyutKavach is a Cyber-Secure Web-Based Energy Management System that utilizes a multi-layered strategy to safeguard security and integrity. Did this project with Shifa and Anas. A SIH problem statement solution, visit the website to see how it works.",
       link: "https://vidyutkavach.luciferlocas.live/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720035234/vidyut_gidpvf.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/VidyutKavachbig_efyg7f.mp4?updatedAt=1720031382899",
