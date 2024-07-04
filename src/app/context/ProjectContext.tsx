@@ -32,7 +32,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
   const projects: Project[] = [
     {
       name: "Tiny Miny URL",
-      info: "Github Search enables users to find repositories and developers. Click the link to start searching.",
+      info: "Tiny miny URL let's you short a long URL, a NEXTjs application to enhance URL shortening. Click the link to short your long URL",
       link: "https://tiny-miny-url.luciferlocas.live/",
       vs: "",
       vb: "",
@@ -41,7 +41,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     },
     {
       name: "Edustar",
-      info: "Edustar provides educational management solutions. Click the link to learn about its features.",
+      info: "Edustar provides educational management solutions. This project packs a punch, it uses Next API for smooth backend data fetching and lets you log in just once for a whole year of access. Click the link to learn about its features.",
       link: "https://edustar.luciferlocas.live/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720074864/edustar_mnzzfm.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/edustar_nhnaja.mp4?updatedAt=1720031385431",
@@ -50,7 +50,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     },
     {
       name: "Vigilance+",
-      info: "Vigilance+ is a project aimed at enhancing security measures. Visit the website for more information.",
+      info: "Vigilance+ is a project aimed at streamline the visitor management system. Currently implemented in my college campus to take all the entries of visitor and generate report as per need. Visit the website for more information.",
       link: "https://vigilance.luciferlocas.live/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720075084/vigilance_egojkh.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/vigilancebig_ugqxzz.mp4?updatedAt=1720031371955",
@@ -59,7 +59,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     },
     {
       name: "Bard Clone",
-      info: "Bard Clone is a project that replicates a popular blogging platform. Follow the link to explore more.",
+      info: "Bard Clone is a project that replicates Gemini(Bard earlier). Currently the model doesn't reply as it's against the google policy. Follow the link to explore more.",
       link: "https://bard.luciferlocas.live/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720071413/bard_jh75xl.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/Bard_Clonebig_oqdrbo.mp4?updatedAt=1720031371648",
@@ -68,7 +68,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     },
     {
       name: "VidyutKavach",
-      info: "VidyutKavach focuses on electricity protection systems. Visit the website to see how it works.",
+      info: "VidyutKavach is a Cyber-Secure Web-Based Energy Management System that utilizes a multi-layered strategy to safeguard security and integrity. A SIH problem statement solution, visit the website to see how it works.",
       link: "https://vidyutkavach.luciferlocas.live/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720035234/vidyut_gidpvf.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/VidyutKavachbig_efyg7f.mp4?updatedAt=1720031382899",
@@ -77,7 +77,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     },
     {
       name: "Glitchub",
-      info: "Glitchub is a Github Search which enables users to find repositories and developers. Click the link to start searching.",
+      info: "Glitchub is a Github Search which enables users to find developers and their repos. Click the link to start searching.",
       link: "https://glitchub.luciferlocas.live/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720074863/glitchub_qe3abe.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/Github_Searchbig_bryxjn.mp4?updatedAt=1720031367729",
@@ -86,7 +86,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     },
     {
       name: "Writer's Oasis",
-      info: "Writer's Oasis offers a serene writing environment. Explore more about its features and benefits.",
+      info: "As my first project Writer's Oasis is a platform which enables every writer to post their creativity on the platform. The project is not longer running.",
       link: "#",
       vs: "",
       vb: "https://res.cloudinary.com/dotbo6chr/video/upload/v1719857759/Writer_sOasisbig_rcokif.mp4",
