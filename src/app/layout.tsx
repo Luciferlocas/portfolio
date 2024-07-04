@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./context/providers";
 import { ProjectProvider } from "./context/ProjectContext";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} overflow-x-hidden overflow-y-scroll animate-gradient bg-[length:400%_400%]`}
       >
+        <Analytics />
         <Providers>
           <ProjectProvider>{children}</ProjectProvider>
         </Providers>
