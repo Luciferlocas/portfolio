@@ -1,13 +1,25 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useProject } from "../context/ProjectContext";
 
 const Screen = () => {
   const { selectedProject, projects } = useProject();
-  console.log(selectedProject);
-  
+  const [selected, setSelected] = useState({
+    name: "",
+    info: "",
+    link: "",
+    vs: "",
+    vb: "",
+    pb: "",
+    ps: "",
+  });
+
+  useEffect(() => {
+    if (selectedProject)
+      setSelected(projects.filter((x) => x.name === selectedProject)[0]);
+  }, [selectedProject]);
 
   return (
     <div className="flex lg:flex-row flex-col-reverse lg:gap-4 justify-center items-center ">
@@ -18,15 +30,14 @@ const Screen = () => {
         className="md:w-[10.25rem] w-[5.5rem] aspect-[9/19] bg-white lg:rounded-[1.5rem] shadow-md md:rounded-2xl rounded-xl relative overflow-hidden z-10 lg:-mt-4 md:-mt-72 -mt-36 lg:mr-0 sm:mr-[14rem] mr-[10rem]"
       >
         <video
-          className="object-contain lg:rounded-[1.5rem] md:rounded-2xl rounded-xl"
+          className="object-contain lg:rounded-[1.5rem] md:rounded-2xl rounded-xl md:-mt-5 -mt-[0.65rem]"
           autoPlay
           loop
           muted
+          poster={selected.ps}
+          key={selected.ps}
         >
-          <source
-            src={selectedProject && projects.filter((x) => x.name === selectedProject)[0].vs}
-            type="video/mp4"
-          />
+          <source src={selected.vs} type="video/mp4" />
         </video>
         <div className="absolute bottom-1 left-1/2 w-1/3 h-[2px] bg-black/80 rounded-full -translate-x-1/2"></div>
       </motion.div>
@@ -47,12 +58,10 @@ const Screen = () => {
           preload="auto"
           loop
           muted
-          poster={``}
+          poster={selected.pb}
+          key={selected.pb}
         >
-          <source
-            src={selectedProject && projects.filter((x) => x.name === selectedProject)[0].vb}
-            type="video/mp4"
-          />
+          <source src={selected.vb} type="video/mp4" />
         </video>
       </motion.div>
     </div>
