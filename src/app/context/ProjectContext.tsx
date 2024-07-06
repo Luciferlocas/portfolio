@@ -34,10 +34,10 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
       name: "Tiny Miny",
       info: "Tiny miny let's you short a long URL, a NEXTjs application to enhance URL shortening. Click the link to short your long URL",
       link: "https://tinyminy.luciferlocas.live/",
-      vs: "",
+      vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720298777/tiny_1_sgwjkk.mp4",
       vb: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720297700/Recording_2024-07-07_015605_1_thqd5o.mp4",
-      pb: "https://ik.imagekit.io/luciferlocas/tiny-miny.png?updatedAt=1720076681268",
-      ps: "https://ik.imagekit.io/luciferlocas/tiny-miny.jpg?updatedAt=1720073387461",
+      pb: "https://res.cloudinary.com/dotbo6chr/image/upload/v1720298274/tiny_koqxsa.png",
+      ps: "https://res.cloudinary.com/dotbo6chr/image/upload/v1720298686/miny_jjplvs.jpg",
     },
     {
       name: "Edustar",
