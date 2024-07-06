@@ -33,7 +33,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     {
       name: "Tiny Miny",
       info: "Tiny miny let's you short a long URL, a NEXTjs application to enhance URL shortening. Click the link to short your long URL",
-      link: "https://tiny-miny.luciferlocas.live/",
+      link: "https://tinyminy.luciferlocas.live/",
       vs: "",
       vb: "",
       pb: "https://ik.imagekit.io/luciferlocas/tiny-miny.png?updatedAt=1720076681268",
