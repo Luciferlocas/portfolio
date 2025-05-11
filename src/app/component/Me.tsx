@@ -5,9 +5,9 @@ const Me = () => {
   return (
     <div className="font-extrabold text-[2em]">
       Rohit Somvanshi, <br />
-      frontend developer at{" "}
-      <Link target="_blank" href="https://brlakgec.com/" className="bg-gradient-to-tr from-blue-700 to-indigo-300 inline-block bg-clip-text text-transparent">
-        BRL
+      Frontend Developer Intern at{" "}
+      <Link target="_blank" href="https://erevna.in/" className="bg-gradient-to-tr from-blue-700 to-indigo-300 inline-block bg-clip-text text-transparent">
+        Erevna
       </Link>
     </div>
   );

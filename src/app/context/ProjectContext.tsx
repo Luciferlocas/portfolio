@@ -1,4 +1,5 @@
 "use client";
+
 import React, { createContext, useState, useContext, ReactNode } from "react";
 
 interface Project {
@@ -31,9 +32,18 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
   const not = "Writer's Oasis";
   const projects: Project[] = [
     {
+      name: "NomeN",
+      info: "NomeN is a platform designed to help you create your own digital resume with ease. It was built as a part of Hacktoberfest 2024 to encourage and support people in learning about open source contributions. Whether you're new to open source or looking to showcase your skills, NomeN makes it simple.",
+      link: "https://nomen.rsom.me/",
+      vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1746991677/nomen_recording_egn6qe.mp4",
+      vb: "https://res.cloudinary.com/dotbo6chr/video/upload/v1746990911/Recording_2025-05-12_004013_jft4cq.mp4",
+      pb: "https://res.cloudinary.com/dotbo6chr/image/upload/v1746990915/Screenshot_2025-05-12_004346_odecei.png",
+      ps: "https://res.cloudinary.com/dotbo6chr/image/upload/v1746991635/nomen_screenshot_sl3mwf.jpg",
+    },
+    {
       name: "Tiny Miny",
       info: "Tiny miny let's you short a long URL, a NEXTjs application to enhance URL shortening. Click the link to short your long URL",
-      link: "https://tinyminy.luciferlocas.live/",
+      link: "https://tm.rsom.me/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720298777/tiny_1_sgwjkk.mp4",
       vb: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720297700/Recording_2024-07-07_015605_1_thqd5o.mp4",
       pb: "https://res.cloudinary.com/dotbo6chr/image/upload/v1720298274/tiny_koqxsa.png",
@@ -42,7 +52,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     {
       name: "Edustar",
       info: "Edustar provides educational management solutions. This project packs a punch, it uses Next API for smooth backend data fetching and lets you log in just once for a whole year of access. Click the link to learn about its features.",
-      link: "https://edustar.luciferlocas.live/",
+      link: "https://edustar.rsom.me/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720074864/edustar_mnzzfm.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/edustar_nhnaja.mp4?updatedAt=1720031385431",
       pb: "https://ik.imagekit.io/luciferlocas/edustar.png?updatedAt=1720076700606",
@@ -51,7 +61,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     {
       name: "Vigilance+",
       info: "Vigilance+ is a project aimed to streamline the visitor management system. Currently implemented in my college campus to take all the entries of visitor and generate report as per need. Did this project with a team of developers. Visit the website for more information.",
-      link: "https://vigilance.luciferlocas.live/",
+      link: "https://vigilance.rsom.me/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720075084/vigilance_egojkh.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/vigilancebig_ugqxzz.mp4?updatedAt=1720031371955",
       pb: "https://ik.imagekit.io/luciferlocas/vigilance.png?updatedAt=1720076720927",
@@ -60,7 +70,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     {
       name: "Bard Clone",
       info: "Bard Clone is a project that replicates Gemini(Bard earlier). Currently the model doesn't reply as it's against the google policy. Follow the link to explore more.",
-      link: "https://bard.luciferlocas.live/",
+      link: "https://bard.rsom.me/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720071413/bard_jh75xl.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/Bard_Clonebig_oqdrbo.mp4?updatedAt=1720031371648",
       pb: "https://ik.imagekit.io/luciferlocas/bard.png?updatedAt=1720076580969",
@@ -69,7 +79,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     {
       name: "VidyutKavach",
       info: "VidyutKavach is a Cyber-Secure Web-Based Energy Management System that utilizes a multi-layered strategy to safeguard security and integrity. Did this project with Shifa and Anas. A SIH problem statement solution, visit the website to see how it works.",
-      link: "https://vidyutkavach.luciferlocas.live/",
+      link: "https://vidyutkavach.rsom.me/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720035234/vidyut_gidpvf.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/VidyutKavachbig_efyg7f.mp4?updatedAt=1720031382899",
       pb: "https://ik.imagekit.io/luciferlocas/vidyutkavach.png?updatedAt=1720076643134",
@@ -78,7 +88,7 @@ export const ProjectProvider: React.FC<ProjectProviderProps> = ({
     {
       name: "Glitchub",
       info: "Glitchub is a Github Search which enables users to find developers and their repos. Click the link to start searching.",
-      link: "https://glitchub.luciferlocas.live/",
+      link: "https://glitchub.rsom.me/",
       vs: "https://res.cloudinary.com/dotbo6chr/video/upload/v1720074863/glitchub_qe3abe.mp4",
       vb: "https://ik.imagekit.io/luciferlocas/Github_Searchbig_bryxjn.mp4?updatedAt=1720031367729",
       pb: "https://ik.imagekit.io/luciferlocas/glitchub.png?updatedAt=1720076621795",
